@@ -1,4 +1,23 @@
+    /* shared styles */
+    .work-sans{
+        font-family: "Work Sans", sans-serif;
+        font-optical-sizing: auto;
+        font-weight: <weight>;
+        font-style: normal;
+      }
 
+      .primary-btn-style{
+        background-color:rgba(230, 83, 60, 1);
+        border-radius:42px ;
+        padding: 16px 40px 16px 40px;
+        gap: 10px;
+        color:rgba(255, 255, 255, 1);
+        font-size: 22px;
+        border: none;
+    }
+    
+    
+    /* header-part */
 body{
     background-color: black;
 }
@@ -47,4 +66,179 @@ body{
    justify-content: center;
    align-items: center;
 
+}
+
+.menu-toggle {
+    display: none;
+    flex-direction: column;
+    cursor: pointer;
+    padding: 10px;
+}
+
+.bar {
+    width: 25px;
+    height: 3px;
+    background-color: #fff;
+    margin: 5px 0;
+    transition: 0.3s;
+}
+
+          /*  banner part  */
+
+.banner{
+    display:grid;
+    grid-template-columns: repeat(2, 1fr);
+    max-width: 1440px;
+    margin: 0 auto;
+}
+
+.banner-description-title{
+       color:rgba(255, 255, 255, 1) ;
+       font-size: 78px;
+}
+.italic{
+    font-weight: 400px;
+    font-family: "Poppins", sans-serif;
+    font-weight: 200;
+     font-style: italic;
+      }
+
+.banner-description-para{
+    color: rgba(255, 255, 255, 0.5);
+    font-weight: 400;
+    font-size: 16px;
+}
+
+.banner-description-btn{
+    gap:px;
+}
+.primary-btn{
+    background-color:black;
+    border-radius:42px ;
+    padding: 16px 40px 16px 40px;
+    gap: 10px;
+    color:rgba(255, 255, 255, 1);
+    font-size: 22px;
+    border: 1px solid ;
+
+}
+
+.banner-picture{
+    width: 100%;
+}
+
+.video-tutorial-1{
+    margin-left: -170px;
+    margin-top:-150px ;
+}
+ .red-circle-350-video{
+    display: flex;
+    width: 206px;
+    height: 96px;
+    background-color: rgba(48, 48, 48, 0.54);
+    border: 1px solid rgba(255, 255, 255, 0.1);
+    border-radius: 12px;
+    align-items: center;
+    justify-content: center;
+ }
+ .video-tutorial-350{
+    width: 108px;
+    height:56px;
+    background-color: rgba(48, 48, 48, 0.54);
+    border: none;
+
+ }
+ #video-350{
+    font-weight: 900px;
+    font-size: 24px;
+    color:rgba(250, 250, 249, 1) ;
+ }
+ #video-tutorial{
+    font-weight: 400px;
+    font-size: 16px;
+    color:rgba(239, 237, 232, 0.65) ;
+ }
+.ball{
+    width: 40px;
+    height: 40px;
+    background-color:rgba(230, 83, 60, 1);
+    border-radius:50%;
+    position: relative;
+}
+ /* problem */
+.video-tutorial-2{  
+    width: 193px;
+    height: 98px;
+    margin-left: 270px;  
+    margin-top:-350px ;
+    border-radius: 12px;
+    border: 1px solid rgba(255, 255, 255, 0.1);
+    background-color:rgba(255, 255, 255, 0.1);
+}
+#video-500{
+    font-size: 40px;
+     font-family: "Poppins", sans-serif;
+     color:rgba(255, 255, 255, 1) ;
+}
+
+#free-video{
+    color:rgba(255, 255, 255, 0.65) ;
+    font-weight: 400;
+    font-size: 13px;
+}
+           
+                                     /* Change Your Habits */
+
+
+
+
+
+
+
+
+
+
+
+
+/* Responsive styles */
+
+@media screen  and (max-width:576px) {
+    .nav-links {
+        display: none;
+        flex-direction: column;
+        width: 100%;
+        background-color: #333;
+        position: absolute;
+        top: 60px; /* Adjust according to the height of the navbar */
+        left: 0;
+        z-index: 1;
+    }
+
+    .nav-links.active {
+        display: flex;
+    }
+
+    .menu-toggle {
+        display: flex;
+    }
+
+    .nav-links a {
+        padding: 15px;
+        text-align: center;
+    }
+
+body{
+    width: 100%;
+}
+
+.banner{
+    display: grid;
+    grid-template-columns: repeat(1, 1fr);
+    justify-items: center;
+}
+.banner-picture{
+    display: grid;
+    justify-content: center;
+     margin-left: 20px;
+}
 }
