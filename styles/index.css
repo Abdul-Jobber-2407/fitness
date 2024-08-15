@@ -40,6 +40,7 @@ header{
     max-width: 1400px;
     margin: 0 auto;
     align-items: center;
+
 }
 .nav-links{
     display: inline;
@@ -98,12 +99,20 @@ header{
     grid-template-columns: repeat(2, 1fr);
     max-width: 1440px;
     margin: 0 auto;
+    gap: 84px;
+}
+.banner-description{
+    width: 599px;
+    height: 440px;
+ 
 }
 
 .banner-description-title{
        color:rgba(255, 255, 255, 1) ;
-       font-size: 78px;
+       font-size: 78px; 
+       
 }
+
 .italic{
     font-weight: 400px;
     font-family: "Poppins", sans-serif;
@@ -132,6 +141,10 @@ header{
 }
 
 .banner-picture{
+    width:349px;
+    height: 540px;
+    /* margin-top: 135px; */
+    margin-left:300px;
     width: 100%;
 }
 
@@ -701,8 +714,121 @@ color:rgba(255, 255, 255, 1) ;
     font-size: 23px;
     color:rgba(255, 255, 255, 0.5);
 }
+
+
+
+
+
+
+
+
+
+
 /* Responsive styles */
 
 @media screen  and (max-width:576px) {
+
+    .header{
+        width: 393px;
+        height: 1024px;
+        background-color:rgba(119, 119, 119, 0);
+    }
+ .navbar{
+    width: 353px;
+    height: 43px;
+    margin-top: 52px;
+    margin-left: 20px;
+ }
+
+ /* Create a Three Line Responsive Menu Using CSS3 */
+
+
+ .menu-toggle {
+    display: flex;
+}
+
+.nav-links {
+    position: absolute;
+    top: 60px;
+    right: 0;
+    background-color: #333;
+    width: 100%;
+    height: 0;
+    overflow: hidden;
+    flex-direction: column;
+    align-items: center;
+    transition: height 0.3s ease;
+}
+
+.nav-links.open {
+    height: 200px; /* Adjust height based on the number of links */
+}
+
+.nav-links li {
+    margin: 10px 0;
+}
+.banner{
+    display: flex;
+    flex-direction: column;
+}
+.banner-description{
+    width: 353px;
+    height: 335px;
+    margin-top: 20px;
+    margin-left: 20px;
+    gap: 71px;
+}
+.banner-picture{
+    width: 353px;
+    height: 588px;
+    margin-top:10px;
+    margin-left: 20px;
+}
+.banner-description-title{
+    width:258px;
+    height: 129px;
+    font-size: 36px;
+}
+.banner-description-para{
+    width: 274px;
+    height: 96px;
+}
+.banner-description-btn{
+    display: flex;
+    width: 352px;
+    height: 54px;
+    gap:14px ;
+}
+
+.primary-btn-style ,
+.primary-btn{
+    margin-top: none;
+    font-size:15px;
+    display: flex;
+}
+
+#club{
+    display: none;
+}
+
+   /* btn */
+.video-tutorial-1{
+    margin-left: -10px;
+    margin-top:-300px ;
+}
+.video-tutorial-2{  
+    margin-left: 190px;  
+    margin-top:-340px ;
+    border-radius: 12px;
+}
+.tutorial-btn-2{
+    width: 170px;
+    height: 80px;
+}
+.red-circle-350-video{
+    width: 155px;
+    height: 72px;
+}
+
 
 }
