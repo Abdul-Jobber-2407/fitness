@@ -10,6 +10,11 @@
         display:none;
       }
 
+
+      #hide-2{
+        display: none;
+      }
+
       .primary-btn-style{
         background-color:rgba(230, 83, 60, 1);
         border-radius:42px ;
@@ -221,6 +226,7 @@ header{
     height:452px;
     margin:0 auto;
     margin-top: 150px;
+
 }
 .exercise-part{
     width: 671px;
@@ -295,6 +301,7 @@ header{
     font-weight: 600;
     color:rgba(255, 255, 255, 1);
     margin-left: 50px;
+    align-items: center;
 
 }
 .exercise-card-description{
@@ -302,7 +309,7 @@ header{
     height: 36px;
     font-size: 14px;
     color:rgba(255, 255, 255, 0.5);
-     margin-left: 50px;
+     align-items: center;
 }
    /* single run */
 .single-run-part{
@@ -830,5 +837,93 @@ color:rgba(255, 255, 255, 1) ;
     height: 72px;
 }
 
+/* exercise-4-style */
+main{
+    width:338px;
+}
+
+.exercise-banner-time{
+    width: 338px;
+    height: 1398px;
+    margin-top:50px;
+    gap: 58px;
+    
+}
+
+.exercise-part{
+    width: 318px;
+    height: 124px;
+    margin: 0 auto;
+    margin-top: 20px;
+}
+
+.exercise-title{
+    width: 318px;
+    height: 38px;
+    font-size:29px;
+    margin-top: 20px;
+    /* margin-left: -30; */
+}
+
+.exercise-description{
+    width: 316px;
+    height: 72px;
+    font-size: 14px;
+    align-items: center;
+}
+
+.exercise-time{
+    
+    width: 318px;
+    height: 1216px;
+    gap: 40px;
+    display: grid;
+    grid-template-rows: repeat(4 , 1fr);
+}
+  /* single exersice part  */
+.single-run-part{
+width: 353px;
+height: 531px;
+margin-top:66px;
+ display: grid;
+ grid-template-rows: repeat(2, 1fr);
+
+}
+.single-run-description{
+    width: 287px;
+    height:264px;
+    margin-top: 31px;
+    margin-left: 33px;
+    gap: 24px;
+}
+.run-and-extra-part{
+    width: 247px;
+    height: 186px;
+}
+.run-title{
+    width: 287px;
+    height: 76px;
+    font-size: 32px;
+}
+.run-description{
+    width: 287px;
+    height: 96px;
+    font-size: 14px;
+
+}
+
+.primary-btn-style{
+    width:287px;
+    height:50px;
+    align-items: center;
+}
+/* .single-run-img, */
+.run-image{
+    width: 287px;
+    height: 170px;
+    margin-top:-31px;
+    margin-bottom: 36px;
+    margin-left: 1px;  
+}
 
 }
